@@ -8,34 +8,36 @@
     body.testBody
     {
         margin:                     0px;
-        text-align:                 left;
+        padding:                    0px;
         overflow-x:                 auto;
         overflow-y:                 scroll;
         background:                 #ffffff url( ../res/image/logoBootstrap.png ) no-repeat center top;
     }
 
+    @media (min-width: 1200px)
+    {
+        .container
+        {
+            width:                  1150px;
+        }
+    }
+
     div.testMainContainer
     {
-        padding-left:               0px;
-        padding-right:              0px;
+        padding:                    0px;
         background:                 rgba( 200, 200, 200, 0.4 );
     }
 
     div.testRow
     {
-        background-color:           #ff0000;
-        margin-left:                0px;
-        margin-right:               0px;
-        padding-left:               0px;
-        padding-right:              0px;
+        margin:                     0px;
+        padding:                    0px;
+        background:                 rgba( 255, 0, 0, 1.0 );
     }
 
     div.testExampleColumn
     {
-        background-color:           #ffff00;
-        margin-left:                0px;
-        margin-right:               0px;
-        padding-left:               0px;
-        padding-right:              0px;
-        border:                     1px #000000 inset;
+        margin:                     0px;
+        padding:                    0px;
+        background:                 rgba( 255, 255, 0, 1.0 );
     }
