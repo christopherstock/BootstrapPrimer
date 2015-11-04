@@ -5,10 +5,37 @@
     *   @author     Christopher Stock
     *   @version    0.0.1
     *****************************************************************************/
-    body.bootstrapTest
+    body.testBody
     {
+        margin:                     0px;
         text-align:                 left;
         overflow-x:                 auto;
         overflow-y:                 scroll;
-        background:                 #ffffff url( ../res/image/logoBootstrap.png ) no-repeat right top;
+        background:                 #ffffff url( ../res/image/logoBootstrap.png ) no-repeat center top;
+    }
+
+    div.testMainContainer
+    {
+        padding-left:               0px;
+        padding-right:              0px;
+        background:                 rgba( 200, 200, 200, 0.4 );
+    }
+
+    div.testRow
+    {
+        background-color:           #ff0000;
+        margin-left:                0px;
+        margin-right:               0px;
+        padding-left:               0px;
+        padding-right:              0px;
+    }
+
+    div.testExampleColumn
+    {
+        background-color:           #ffff00;
+        margin-left:                0px;
+        margin-right:               0px;
+        padding-left:               0px;
+        padding-right:              0px;
+        border:                     1px #000000 inset;
     }
