@@ -41,3 +41,94 @@
         padding:                    0px;
         background:                 rgba( 255, 255, 0, 1.0 );
     }
+
+    div.testNavbarContainer
+    {
+        margin:                     0px;
+        padding:                    0px;
+    }
+
+    div.testNavbarHeader
+    {
+        background-color:           #ff0000;
+        height:                     25px;
+        margin:                     0px !important;
+        padding:                    0px !important;
+    }
+
+    button.testNavbarButton
+    {
+        border-radius:              0px;
+        width:                      50px;
+        height:                     25px;
+        background-color:           #ffff00 !important;
+        margin:                     0px !important;
+        padding:                    0px !important;
+    }
+
+    div#navbar
+    {
+        box-shadow:                 none !important;
+    }
+
+    div#navbar ul
+    {
+        margin-top:                 0px;
+        margin-bottom:              0px;
+    }
+
+    div#navbar ul li
+    {
+        background-color:           #ffbb55;
+    }
+
+    div#navbar ul li.active
+    {
+        background-color:           #ff7700 !important;
+    }
+
+    div#navbar ul li a
+    {
+        height:                     25px;
+        margin:                     0px;
+        background-color:           transparent !important;
+        background-image:           none !important;
+
+        padding-left:               20px;
+        padding-right:              20px;
+        padding-top:                0px;
+        padding-bottom:             0px;
+    }
+
+    nav.testNavbar
+    {
+        border-radius:              0px;
+        background-color:           #00ff00 !important;
+        background-image:           none;
+
+        border:                     0px;
+
+        margin:                     0px;
+        padding:                    0px;
+
+        line-height:                100%;
+        min-height:                 0px !important;
+
+        box-shadow:                 none;
+    }
+
+    div.testNavbar
+    {
+        margin-top:                 0px !important;
+        margin-bottom:              0px !important;
+        padding-top:                0px !important;
+        padding-bottom:             0px !important;
+        border:                     0px;
+
+        background-color:           #0000ff;
+    }
+
+    div.testNavbar ul li a
+    {
+        box-shadow:                 none !important;
+    }
