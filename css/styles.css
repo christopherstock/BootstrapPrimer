@@ -42,13 +42,15 @@
         background:                 rgba( 255, 255, 0, 1.0 );
     }
 
-    div.testNavbarContainer
+    div.testNavbarContainer,
+    div.testNavbarContainer2
     {
         margin:                     0px;
         padding:                    0px;
     }
 
-    div.testNavbarHeader
+    div.testNavbarHeader,
+    div.testNavbarHeader2
     {
         background-color:           #ff0000;
         height:                     25px;
@@ -56,51 +58,62 @@
         padding:                    0px !important;
     }
 
-    button.testNavbarButton
+    button.testNavbarButton,
+    button.testNavbarButton2
     {
         border-radius:              0px;
-        width:                      50px;
+        width:                      100px;
         height:                     25px;
         background-color:           #ffff00 !important;
         margin:                     0px !important;
         padding:                    0px !important;
+        float:                      left;
     }
 
-    div#navbar
+    div#navbar,
+    div#navbar2
     {
         box-shadow:                 none !important;
+        padding:                    0px;
+        margin:                     0px;
     }
 
-    div#navbar ul
+    div#navbar ul,
+    div#navbar2 ul
     {
-        margin-top:                 0px;
-        margin-bottom:              0px;
+        margin:                     0px;
     }
 
-    div#navbar ul li
+    div#navbar ul li,
+    div#navbar2 ul li
     {
         background-color:           #ffbb55;
     }
 
-    div#navbar ul li.active
+    div#navbar ul li.active,
+    div#navbar2 ul li.active
     {
         background-color:           #ff7700 !important;
     }
 
-    div#navbar ul li a
+    div#navbar ul li a,
+    div#navbar2 ul li a
     {
         height:                     25px;
         margin:                     0px;
         background-color:           transparent !important;
         background-image:           none !important;
 
-        padding-left:               20px;
-        padding-right:              20px;
+        padding-left:               0px;
+        padding-right:              0px;
         padding-top:                0px;
         padding-bottom:             0px;
+
+        box-shadow:                 none !important;
     }
 
-    nav.testNavbar
+    nav.testNavbar,
+    nav.testNavbar2
     {
         border-radius:              0px;
         background-color:           #00ff00 !important;
@@ -117,7 +130,8 @@
         box-shadow:                 none;
     }
 
-    div.testNavbar
+    div.testNavbar,
+    div.testNavbar2
     {
         margin-top:                 0px !important;
         margin-bottom:              0px !important;
@@ -126,9 +140,4 @@
         border:                     0px;
 
         background-color:           #0000ff;
-    }
-
-    div.testNavbar ul li a
-    {
-        box-shadow:                 none !important;
     }
