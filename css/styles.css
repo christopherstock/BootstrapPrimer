@@ -87,13 +87,13 @@
     div#navbar ul li,
     div#navbar2 ul li
     {
-        background-color:           #ffbb55;
+        background-color:           #00aa00;
     }
 
     div#navbar ul li.active,
     div#navbar2 ul li.active
     {
-        background-color:           #ff7700 !important;
+        background-color:           #00ff00 !important;
     }
 
     div#navbar ul li a,
@@ -140,4 +140,19 @@
         border:                     0px;
 
         background-color:           #0000ff;
+    }
+
+    @media only screen and (max-width : 768px)
+    {
+        div#navbar ul li.active,
+        div#navbar2 ul li.active
+        {
+            background-color:           #000000 !important;
+        }
+
+        div#navbar ul li,
+        div#navbar2 ul li
+        {
+            background-color:           #c7c7c7;
+        }
     }
